@@ -2,7 +2,7 @@ const FEATURES = [
   {
     tag: 'Standalone',
     title: 'No companion app required',
-    body: 'Built on MeshCore and run entirely on-device. Identity, contacts, and channels persist in NVS — power it on and it joins the mesh by itself.',
+    body: 'Built on MeshCore and run entirely on-device. Identity, contacts, and channels persist in NVS - power it on and it joins the mesh by itself.',
   },
   {
     tag: 'Channels',
@@ -12,7 +12,7 @@ const FEATURES = [
   {
     tag: 'Web config',
     title: 'Wi-Fi AP browser UI',
-    body: 'The device hosts a plumeria-mc Wi-Fi access point and config UI at http://192.168.4.1 — set node identity, region, and channel keys, and import/export the full config as YAML.',
+    body: 'The device hosts a plumeria-mc Wi-Fi access point and config UI at http://192.168.4.1 - set node identity, region, and channel keys, and import/export the full config as YAML.',
   },
   {
     tag: 'GPS + DMs',

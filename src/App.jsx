@@ -9,7 +9,7 @@ import AI from './components/AI.jsx'
 import Footer from './components/Footer.jsx'
 
 // Plumeria-MC has a single fixed on-device aesthetic (the violet/cream plumeria
-// splash), so unlike camillia-mt-web there is no runtime theme switcher — the
+// splash), so unlike camillia-mt-web there is no runtime theme switcher - the
 // palette lives in styles.css :root and is ported from the firmware splash.
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
       <Nav />
       <main>
         <Hero />
-        <Features />
+        {/* <Features /> */}
         <Devices />
         <Preview />
         <Flasher />

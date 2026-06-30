@@ -1,8 +1,8 @@
-/* Plumeria-MC palette — ported from the firmware splash (drawPlumeriaFlower +
+/* Plumeria-MC palette - ported from the firmware splash (drawPlumeriaFlower +
    kSplash* constants in plumeria-mc/src/ui/standalone_ui.cpp): deep violet
    background, near-black violet panels, creamy/pink petals over a yellow center.
    Plumeria-MC has a single on-device aesthetic, so unlike camillia-mt-web there
-   is no runtime theme switcher — these are fixed. */
+  is no runtime theme switcher - these are fixed. */
 :root {
   --bg-main:        #150b26;
   --status-top:     #2c1b47;

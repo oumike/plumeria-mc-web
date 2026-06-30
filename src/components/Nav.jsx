@@ -1,9 +1,11 @@
 export default function Nav() {
+  const faviconHref = `${import.meta.env.BASE_URL}favicon.svg`
+
   return (
     <header className="nav">
       <div className="nav-inner">
         <a href="#top" className="brand">
-          <img src="/favicon.svg" alt="" />
+          <img src={faviconHref} alt="" />
           <span>Plumeria-MC</span>
         </a>
         <div className="nav-spacer" />

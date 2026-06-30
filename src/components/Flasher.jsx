@@ -58,7 +58,7 @@ export default function Flasher() {
           <div className="card" style={{ marginTop: 16, borderColor: 'var(--accent)' }}>
             <strong>Web Serial isn't available in this browser.</strong>{' '}
             Use a recent Chrome, Edge, or Opera on desktop. iOS Safari and
-            Firefox don't expose Web Serial — on those, download the{' '}
+            Firefox don't expose Web Serial - on those, download the{' '}
             <span className="kbd">.bin</span> and flash it with esptool.
           </div>
         )}
@@ -96,7 +96,7 @@ export default function Flasher() {
             </div>
             {versionStale && (
               <span className="browser-note" style={{ marginTop: 8 }}>
-                Couldn't reach the GitHub API — falling back to {FIRMWARE_VERSION}.
+                Couldn't reach the GitHub API - falling back to {FIRMWARE_VERSION}.
               </span>
             )}
           </div>

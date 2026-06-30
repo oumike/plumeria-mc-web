@@ -2,9 +2,9 @@ export default function Hero() {
   return (
     <section id="top" className="hero">
       <div className="container">
-        <h2>
-          A stand-alone MeshCore-compatible LoRa firmware for ESP32-S3 handhelds
-        </h2>
+        <h1>
+          Plumeria MC
+        </h1>
         <p className="lede">
           Plumeria-MC is MeshCore-compatible firmware for ESP32-S3 handheld
           LoRa devices. It runs fully standalone with an on-device LVGL UI, up to 40 group channels, 128 contacts,

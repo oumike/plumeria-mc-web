@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: plumeria-mc-web:latest
+    container_name: plumeria-mc-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"

@@ -6,6 +6,7 @@ export default function Footer() {
         <span style={{ flex: 1 }} />
         <a href="https://github.com/oumike/plumeria-mc" target="_blank" rel="noreferrer">Source</a>
         <a href="https://github.com/oumike/plumeria-mc/releases" target="_blank" rel="noreferrer">Releases</a>
+        <a href="#license">License</a>
       </div>
     </footer>
   )

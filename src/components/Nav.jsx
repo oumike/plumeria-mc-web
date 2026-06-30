@@ -14,6 +14,8 @@ export default function Nav() {
         <a href="#preview">Preview</a>
         <a href="#flash">Flash</a>
         <a href="https://github.com/oumike/plumeria-mc" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#ai">AI</a>
+        <a href="#license">License</a>
       </div>
     </header>
   )

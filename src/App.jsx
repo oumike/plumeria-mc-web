@@ -6,7 +6,6 @@ import Preview from './components/Preview.jsx'
 import Flasher from './components/Flasher.jsx'
 import Docs from './components/Docs.jsx'
 import AI from './components/AI.jsx'
-import License from './components/License.jsx'
 import Footer from './components/Footer.jsx'
 
 // Plumeria-MC has a single fixed on-device aesthetic (the violet/cream plumeria
@@ -24,7 +23,6 @@ export default function App() {
         <Flasher />
         <Docs />
         <AI />
-        <License />
       </main>
       <Footer />
     </>

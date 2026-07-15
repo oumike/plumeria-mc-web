@@ -96,4 +96,4 @@ docker-compose.yml   convenience target
 
 ## License
 
-GPLv3, matching the upstream firmware.
+MIT. See LICENSE for details.

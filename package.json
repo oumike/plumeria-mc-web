@@ -2,6 +2,7 @@
   "name": "plumeria-mc-web",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "type": "module",
   "description": "Information site and browser-based firmware flasher for Plumeria-MC",
   "scripts": {

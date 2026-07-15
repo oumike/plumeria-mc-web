@@ -68,7 +68,7 @@ pre {
   padding: 0 24px;
 }
 section {
-  padding: 72px 0;
+  padding: 48px 0;
   border-top: 1px solid var(--divider);
 }
 section:first-of-type { border-top: 0; }
@@ -98,7 +98,7 @@ p { line-height: 1.55; color: var(--text-dim); }
 
 /* Hero */
 .hero {
-  padding-top: 96px;
+  padding-top: 72px;
   background: radial-gradient(80% 60% at 50% 0%, var(--panel-strong) 0%, transparent 70%);
 }
 .hero h1 .accent { color: var(--accent); }
@@ -167,6 +167,8 @@ p { line-height: 1.55; color: var(--text-dim); }
 }
 @media (max-width: 760px) {
   .preview-grid { grid-template-columns: 1fr; }
+  section { padding: 40px 0; }
+  .hero { padding-top: 60px; }
 }
 .preview {
   border-radius: 18px;

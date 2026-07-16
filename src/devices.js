@@ -28,20 +28,4 @@ export const DEVICES = [
     link: 'https://www.lilygo.cc/products/t-deck',
     image: `${devicesBase}/tdeck.png`,
   },
-  {
-    env: 'heltec-v4-expansion',
-    name: 'Heltec WiFi LoRa 32 V4 + TFT',
-    chip: 'ESP32-S3',
-    desc: 'Touch-first horizontal UI with the expansion TFT, GPS, full standalone mesh UI.',
-    link: 'https://heltec.org/',
-    image: `${devicesBase}/heltec-v4-expansion-kit.png`,
-  },
-  {
-    env: 'heltec-v4-expansion-vertical',
-    name: 'Heltec WiFi LoRa 32 V4 + TFT (vertical)',
-    chip: 'ESP32-S3',
-    desc: 'Same as Heltec V4 expansion with a vertical-oriented, compact UI layout.',
-    link: 'https://heltec.org/',
-    image: `${devicesBase}/heltec-v4-expansion-kit.png`,
-  },
 ]

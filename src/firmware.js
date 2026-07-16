@@ -18,8 +18,6 @@ const ASSET_SLUG = {
   'cardputer-cap': 'cardputer-cap',
   'tlora-pager-tft': 'tlora-pager-tft',
   'tdeck': 'tdeck',
-  'heltec-v4-expansion': 'heltec-v4-expansion',
-  'heltec-v4-expansion-vertical': 'heltec-v4-expansion-vertical',
 }
 
 export function firmwareUrl(env, version) {
